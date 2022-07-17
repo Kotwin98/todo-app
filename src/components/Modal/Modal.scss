@@ -1,0 +1,29 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 50px;
+  z-index: 100;
+
+  .btn-close {
+    background-color: rgb(249, 81, 81);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
